@@ -1,0 +1,25 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cat Scrapper</title>
+
+    <script src="{% static 'js/app.js' %}"></script>
+    <link rel='stylesheet' href='{% static "styles/main.css" %}' />
+</head>
+<body>
+    {% include 'components/navbar.html' %}
+        
+    <div class='container'>
+            
+        {% block content %}
+            <h3>This will be replaced</h3>
+        {% endblock content %}
+    
+    </div>
+</body>
+</html>
