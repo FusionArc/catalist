@@ -30,7 +30,7 @@
         </ul>
 
         {% if request.user.is_authenticated %}
-        {% include 'search/search-form.html' %}
+        {% comment %} {% include 'search/search-form.html' %} {% endcomment %}
         {% endif %}
         
     </div>

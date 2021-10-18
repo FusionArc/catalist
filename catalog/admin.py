@@ -1,4 +1,6 @@
 from django.contrib import admin
-
-from .models import Asset, Brand, Maker
+from .models import Brand, Maker, Asset
 # Register your models here.
+admin.site.register(Brand)
+admin.site.register(Maker)
+admin.site.register(Asset)
