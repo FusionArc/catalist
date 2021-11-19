@@ -5,7 +5,7 @@ class Brand(models.Model):
     name = models.CharField(max_length=200)
     
     def __str__(self):
-        str(self.name)
+        return str(self.name)
 
 
 class Maker(models.Model):
