@@ -1,3 +1,24 @@
 * { 
     box-sizing: border-box;
 }
+
+.navbar {
+    background-color: #330033;
+    color: white
+}
+
+.navbar-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+    list-style: none;
+}
+
+li.nav-item a{
+    color: white;
+    text-decoration: none;
+
+
+    
+}
